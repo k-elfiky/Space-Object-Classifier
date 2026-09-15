@@ -162,5 +162,4 @@ The weakest class is **QSO**, the smallest class with the highest redshift range
 ## References
 
 - SDSS Data Release 18: <https://www.sdss.org/dr18/>
-- SDSS photometric system (`ugriz`): <https://www.sdss.org/dr18/imaging/caveats/>
 - XGBoost documentation: <https://xgboost.readthedocs.io/>
