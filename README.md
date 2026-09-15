@@ -111,7 +111,7 @@ venv\Scripts\activate
 # macOS / Linux
 source venv/bin/activate
 
-pip install pandas numpy scikit-learn xgboost seaborn matplotlib jupyter
+python -m pip install -r requirements.txt  #installing the dependencies from requirements.txt file
 ```
 
 > [!NOTE]
