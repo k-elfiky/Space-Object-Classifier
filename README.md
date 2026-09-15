@@ -152,12 +152,6 @@ The weakest class is **QSO**, the smallest class with the highest redshift range
 > [!IMPORTANT]
 > Metrics were computed on data from a single sky region and might not transfer perfectly to other SDSS footprints. For a production system, add cross-region validation.
 
-## Possible Next Steps
-
-- Add extra SDSS features (`petroFlux*`, `psfMag*`, `expAB*`) and compare against the color-only baseline.
-- Address class imbalance with `scale_pos_weight` or resampling to lift QSO recall.
-- Compare against alternatives (Random Forest, LightGBM, k-NN) on the same folds.
-- Package the trained model for inference (e.g. `joblib`/`xgboost` save + a small prediction API).
 
 ## References
 
